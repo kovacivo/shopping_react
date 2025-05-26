@@ -1,0 +1,67 @@
+.App {
+  text-align: left;
+  padding: 10px;
+}
+
+.filterable-product-table {
+  outline-style: solid;
+  outline-color: grey;
+
+  width: 400px;
+  /* height: 400px; */
+  padding: 15px 15px 15px 15px;
+}
+
+.search-bar {
+  outline-style: solid;
+  outline-color: rgb(121, 121, 224);
+
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.product-table {
+  outline-style: solid;
+  outline-color: rgb(230, 94, 121);
+
+
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+
+  align-items: stretch;
+
+  display: flex;
+  flex-flow: column;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.product-table table {
+
+
+  outline-style: solid;
+  outline-color: greenyellow;
+
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+table th {
+  text-align: center;
+}
+
+table tbody tr {
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: orange;
+
+}
